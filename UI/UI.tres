@@ -1,0 +1,73 @@
+[gd_resource type="Theme" load_steps=7 format=3 uid="uid://cm1f6pob8hk2p"]
+
+[ext_resource type="FontFile" uid="uid://dsqvk4xlf0d7x" path="res://Assets/LeagueGothic-Regular.otf" id="1_8px3o"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_1xxkk"]
+bg_color = Color(0.52549, 0.556863, 0.588235, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.286275, 0.313726, 0.341176, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_f1xvg"]
+bg_color = Color(0.454902, 0.752941, 0.988235, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.133333, 0.545098, 0.901961, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_pqaam"]
+bg_color = Color(0.454902, 0.752941, 0.988235, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.133333, 0.545098, 0.901961, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_hbjvb"]
+bg_color = Color(0.0941176, 0.392157, 0.670588, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.133333, 0.545098, 0.901961, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_7hnbw"]
+bg_color = Color(0.133333, 0.545098, 0.901961, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.133333, 0.545098, 0.901961, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[resource]
+default_font = ExtResource("1_8px3o")
+default_font_size = 22
+Button/fonts/font = ExtResource("1_8px3o")
+Button/styles/disabled = SubResource("StyleBoxFlat_1xxkk")
+Button/styles/focus = SubResource("StyleBoxFlat_f1xvg")
+Button/styles/hover = SubResource("StyleBoxFlat_pqaam")
+Button/styles/normal = SubResource("StyleBoxFlat_hbjvb")
+Button/styles/pressed = SubResource("StyleBoxFlat_7hnbw")
